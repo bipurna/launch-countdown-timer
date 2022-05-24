@@ -8,3 +8,14 @@
     justify-content: center;
 
 }
+@media (max-width:375px) {
+    .BG{
+        width: 100%;
+        height: 100vh;
+        background-repeat:no-repeat no-repeat;
+        background-position: top left,left bottom;
+        display: flex;
+        justify-content: center;
+    }
+    
+}

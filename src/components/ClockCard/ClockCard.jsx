@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card/Card";
 import "./ClockCard.css";
+import instagram from '../../images/icon-instagram.svg';
+import pinterest from '../../images/icon-pinterest.svg';
+import facebook from '../../images/icon-facebook.svg';
+
 
 const defaultRemainingTime = {
   seconds: "00",
@@ -58,6 +62,17 @@ const ClockCard = () => {
           <Card count={zeroPad(remainingTime.seconds, 2)}></Card>
           <p>Seconds</p>
         </div>
+      </div>
+      <div className="social-media">
+        <a href="https://www.facebook.com/bipurna/">
+          <img src={facebook} alt="Facebook" />
+        </a>
+        <a href="https://www.pinterest.com/bipurna/">
+          <img src={pinterest} alt="Pinterest" />
+        </a>
+        <a href="https://www.instagram.com/tarafromsky/">
+          <img src={instagram} alt="" />
+        </a>
       </div>
     </div>
   );

@@ -29,29 +29,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-.top-page p{
-    position: absolute;
-    top: 50%;  
     
 }
 .bottom-page{
     bottom: 0; 
-    transform: perspective(360) rotateX(-360deg);
-    transition: 3s all;    
-    transform-origin: middle center; 
 }
-.changeState{
-    
-}
-.bottom-page p{
-    position: fixed;
-    bottom: calc(135px / 2 - 45px);
-    /* display: none; */
-   
-    
-}
+
 
 
 
@@ -90,6 +73,74 @@
 -moz-box-shadow: 0px 3px 329px 163px var(--Very-dark-blue-black) inset;
     
 
+}
+.top-page p{
+    margin: 0;
+    padding: 0;
+    top: 50%;
+}
+@media (max-width:375px) {
+    .block {
+        background-color: var(--Dark-desaturated-blue); 
+        width: 70px;
+        height: 75px;
+        color: var(--Soft-red);
+        font-size: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        position: relative;
+        box-shadow: 0px 10px 0px 0px var(--Very-dark-blue-black);
+        -webkit-box-shadow: 0px 10px 0px 0px var(--Very-dark-blue-black);
+        -moz-box-shadow: 0px 10px 0px 0px var(--Very-dark-blue-black);
+      }
+      .block .top-page,.bottom-page{
+        /* background-color: var(--Dark-desaturated-blue); */
+        width: 70px;
+        height: calc(65px/2);
+        position: absolute;
+        border-radius: 6px;
+        z-index: 1;
+        
+    }
+    .top-page p{
+        position: absolute;
+        top: 22px;
+        
+
+    }  
+    .all-separator{
+        display: flex;
+        position: absolute;
+        align-items: center;
+    }
+    .holef,.holeb{
+        /* opacity: 20%; */
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: hsla(235, 15%, 14%, 0.918);;
+        position: absolute;
+        
+    
+    }
+    .separator{
+        margin:5px;
+        width: 56px;
+        height: 1px;
+        background-color: var(--Very-dark-blue-black);
+        opacity: 50%;
+      
+        box-shadow: 0px 3px 329px 163px var(--Very-dark-blue-black) inset;
+    -webkit-box-shadow: 0px 3px 329px 100px var(--Very-dark-blue-black);
+    -moz-box-shadow: 0px 3px 329px 163px var(--Very-dark-blue-black) inset;
+        
+    
+    }
+    
+    
 }
 
 

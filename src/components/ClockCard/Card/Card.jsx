@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 function Card({ count }) {
   return (
-    <div>
+    <div className="Card">
       <div className="block">
         <div className="top-page">
         <p>{count}</p>
@@ -16,6 +16,7 @@ function Card({ count }) {
 
         <div className="bottom-page"></div>
       </div>
+      
     </div>
   );
 }
