@@ -37,5 +37,17 @@
         display: flex;
         gap: 15px;
     }
+    .day p, .hour p, .minute p, .second p{
+        text-align: center;
+        text-transform: uppercase;
+        margin: -15px 0 0;
+        letter-spacing: 2px;
+    }
+    .word{
+        margin-top: 30px !important;
+        font-size: 10px;
+    }
+    
+    
     
 }

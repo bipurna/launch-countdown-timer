@@ -48,19 +48,19 @@ const ClockCard = () => {
       <div className="counter">
         <div className="day">
           <Card count={zeroPad(remainingTime.days, 2)}></Card>
-          <p>Days</p>
+          <p className="word">Days</p>
         </div>
         <div className="hour">
           <Card count={zeroPad(remainingTime.hours, 2)}></Card>
-          <p>Hours</p>
+          <p className="word">Hours</p>
         </div>
         <div className="minute">
           <Card count={zeroPad(remainingTime.minutes, 2)}></Card>
-          <p>Minutes</p>
+          <p className="word">Minutes</p>
         </div>
         <div className="second">
           <Card count={zeroPad(remainingTime.seconds, 2)}></Card>
-          <p>Seconds</p>
+          <p className="word">Seconds</p>
         </div>
       </div>
       <div className="social-media">
