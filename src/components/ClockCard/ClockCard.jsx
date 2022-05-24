@@ -7,10 +7,10 @@ import facebook from '../../images/icon-facebook.svg';
 
 
 const defaultRemainingTime = {
-  seconds: "00",
-  minutes: "00",
-  hours: "00",
-  days: "00",
+  seconds: "41",
+  minutes: "55",
+  hours: "23",
+  days: "08",
 };
 const ClockCard = () => {
   const [remainingTime, setRemainingTime] = useState(defaultRemainingTime);

@@ -16,7 +16,10 @@
     gap:30px;
 }
 .day p, .hour p, .minute p, .second p{
-    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 65px 0 0;
+    letter-spacing: 2px;
 }
 .social-media{
     padding-top: 50px;
