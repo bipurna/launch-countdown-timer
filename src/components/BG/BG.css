@@ -1,0 +1,10 @@
+.BG{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/bg-stars.svg),url(../../images/pattern-hills.svg);
+    background-repeat:no-repeat no-repeat;
+    background-position: top left,left bottom;
+    display: flex;
+    justify-content: center;
+
+}
